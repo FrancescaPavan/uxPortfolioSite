@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(231, 224, 214);
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 5rem 0;
+}
+
+h1 {
+    font-size: 4.5rem;
+    font-weight: 800;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+img {
+    max-width: inherit;
+    border-radius: 15px;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: rgb(130, 128, 130);
+}
+
+.highlight {
+    background-color: rgb(242, 215, 157);
+}
+
+.hobbies {
+    -webkit-text-stroke: 3px rgb(242,175,34);
+    color: rgb(231, 224, 214);
+}
+
+.social-icon {
+    color:rgb(130, 128, 130);
+    font-size: 1.7rem;
+}
+
+.img-link {
+    visibility: hidden;
+    padding-bottom: auto;
+}
+
+a:hover .img-link {
+    visibility: visible;
+}
+
+.img-link span{
+    position: absolute;
+    bottom: 10%;
+}
+
+.blend-background {
+    background-color: rgb(231, 224, 214);
+    border-color: rgb(231, 224, 214);
+}
+
+.social-media {
+    width: max-content;
+}
+
+.navbar {
+    background-color: rgb(74, 123, 105);
+}
+
+.navbar a {
+    color: rgb(231, 224, 214);
+}
+
+.active {
+    padding: 1px;
+    border-bottom: 2.5px solid rgb(242, 175, 34);
+}
+
+.heading {
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+.footer {
+    background-color: rgb(231, 224, 214);
+}
+
+@media only screen and (max-width: 70em) {
+    h1 {
+        font-size: 3.38rem;
+    }
+
+    .subtitle {
+        font-size: 1.3rem;
+    }
+
+    .social-icon {
+        font-size: 1.2rem;
+    }
+}
+
